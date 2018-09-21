@@ -26,7 +26,8 @@ const defaultCreateCache = options => {
       version: version,
       url: url,
       client: client
-    })
+    }),
+    clusters: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js'
   });
 };
 
