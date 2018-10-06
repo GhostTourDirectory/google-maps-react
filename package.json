@@ -1,7 +1,7 @@
 {
   "name": "google-maps-react",
   "version": "2.1.0",
-  "description": "Google maps container",
+  "description": "Fork of Fullstack.io Google maps container",
   "author": "Fullstack.io <us@fullstack.io>",
   "license": "MIT",
   "options": {
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/fullstackreact/google-maps-react.git"
+    "url": "https://github.com/GhostTourDirectory/google-maps-react.git"
   },
   "main": "dist/index.js",
   "scripts": {
