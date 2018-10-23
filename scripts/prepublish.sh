@@ -1,5 +1,11 @@
 #!/bin/bash
 
+if [ ! -d "node_modules" ]; then
+  echo "=> Installing Deps..."
+  echo ""
+  npm install
+fi
+
 echo "=> Transpiling..."
 echo ""
 export NODE_ENV=production
